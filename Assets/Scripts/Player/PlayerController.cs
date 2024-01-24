@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private int speed;
 
+    Rigidbody2D rb2d => GetComponent<Rigidbody2D>();
+
     private void Awake()
     {
         instance = this;
@@ -13,17 +15,8 @@ public class PlayerController : MonoBehaviour
 
     public void Move(Vector2 inputMovement)
     {
-        Vector2 movement = inputMovement * speed * Time.deltaTime;
-        transform.Translate(movement);
-    }
-
-    private void Start()
-    {
-
-    }
-
-    private void Update()
-    {
-
+        Vector2 movement = inputMovement * speed;
+       
+        rb2d.velocity = movement;
     }
 }
