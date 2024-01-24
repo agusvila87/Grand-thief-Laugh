@@ -1,0 +1,2965 @@
+fileFormatVersion: 2
+guid: c2370952891d92647b1c1bbcaa7b6f0b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FF_Guy_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1479
+        width: 91
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992816f5dcd1f7546882da96a9b6091a
+      internalID: 1834724620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1568
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb289a27028b31498515b33bb6b7dee
+      internalID: 935983536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_2
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1479
+        width: 248
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dad27d0d5eb684c9bfad3a5bc4b288
+      internalID: 1134378706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_3
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1545
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68399d88078589e4eaade3c29775d8c0
+      internalID: -1448354543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_4
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1545
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd63cd40f40e784099259074a03ef87
+      internalID: 249152742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1440
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d03c4f10ec3614a82f2c1d7171cba7
+      internalID: 1288206857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1439
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c659d103cedb7f49ae70d61ffb336db
+      internalID: 1271180770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1439
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a290eabce5e9a54fab456e0629c85b9
+      internalID: 602849047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1439
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0124161590ee01841b1cf5234f4ede54
+      internalID: 1889815888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_9
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1448
+        width: 57
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d991266adf06d4ab40e662532ef8e2
+      internalID: -826994327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_10
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1448
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d18fd66adc1d9540964968fd806e599
+      internalID: 2041539289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_11
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1448
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b83204337dc1ec439a80267da26684e
+      internalID: 1320996769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_12
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1448
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eaf66093328b4f4ea5f6c3daca375c5
+      internalID: -2141364721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_13
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1448
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3763867d062f7544bb02153a79001159
+      internalID: -303663193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_14
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1440
+        width: 96
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f676717464b254caf08365c0700d13
+      internalID: 1599959607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_15
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1440
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec14ca4822ec4743a145b65f4d98eee
+      internalID: -1612458590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1296
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b4e93c02cf8d04a909d9076e802749
+      internalID: 1893104405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1296
+        width: 29
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fcdab5c5b26a544a715e792ff53584
+      internalID: -1834826464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_18
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1296
+        width: 29
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d707bc6eb9078149acf8541926f835a
+      internalID: -1157719470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_19
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1296
+        width: 41
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3acc1889f8d0a4097d4eb40524addc
+      internalID: 1372348651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_20
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1296
+        width: 55
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebd5219541beb141bcaebccb69d2947
+      internalID: 1505348311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_21
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1296
+        width: 55
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f208e5ec291f7b34398dc2b65f079f3f
+      internalID: 995629347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_22
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1296
+        width: 42
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5aae8b2570209448f28c2965ea64c2
+      internalID: 1517453635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_23
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1296
+        width: 28
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c385169eb7a0724fb8523b277e1cec1
+      internalID: 598547032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_24
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1296
+        width: 28
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd5749369b79c8458a283d6839dbd00
+      internalID: 513048125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_25
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1296
+        width: 40
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a5d419f1d6a5946928417c1ef19d44
+      internalID: 1450181689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_26
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1296
+        width: 55
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e708401f916d04da8eee202f3564d3
+      internalID: -1536017790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_27
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1296
+        width: 55
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9feb2dd0b8a51e4da58cd974b7a6ba2
+      internalID: -1394864298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_28
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1296
+        width: 46
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7adad7a3349a2494db027a9f114df039
+      internalID: 1580137008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_29
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1295
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d133d8a2e412c4593bc717a7f40d77
+      internalID: 1146694590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1152
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d776d2e61771324499b58fa58d029331
+      internalID: 242057861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_31
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1152
+        width: 81
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6baa26babf7fce044a3790eadbf15155
+      internalID: -2096754724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_32
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1152
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f711f74575d4a4eb081a0accb9a283
+      internalID: 1725405438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1152
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef50be6af30d4743aeef7557fb5f238
+      internalID: 1489841790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_34
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1152
+        width: 81
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e08bc7adf84bf48aec1c3c0d78ee27
+      internalID: -148243493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_35
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1151
+        width: 65
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce53d80688a6c0408e6b6064ca39c49
+      internalID: -1922231156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_36
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1151
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22c6c5e60465704cbb17cff518a612b
+      internalID: 1092325545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_37
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1151
+        width: 77
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba993ba48eea4a4fbd6c73534c97299
+      internalID: 514438507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_38
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1151
+        width: 88
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f0c5ba04781ab4db5ee6f797321384
+      internalID: 1922884919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_39
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1154
+        width: 61
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978639947f8f27348b628fb5115f2242
+      internalID: 1135243131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_40
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1160
+        width: 52
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d3eee410b87d845bee20598d54ee56
+      internalID: 809710214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_41
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1165
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ba02329f91ccc4a8292f0373ab2f3a
+      internalID: -1651314605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_42
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1158
+        width: 57
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b057c2a8320234b9379a9643583c14
+      internalID: 1915770156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_43
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1156
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c75231f4f376c42b41f41b78bc2120
+      internalID: 1561986187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_44
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1151
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ba5b0053c535c48a300f6b3e200b22
+      internalID: -397173903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 960
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165c864f3cddb424f814b4bb1879e365
+      internalID: -1537419388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_46
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 961
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541ce9a4ac86a9448958c9fab249fb14
+      internalID: 1462672832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_47
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 960
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c622186f756eae44c851ce25b37c25f5
+      internalID: -573122180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_48
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 960
+        width: 61
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fe78bd0a0d01a46a87108d73c29e53
+      internalID: -2062390229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_49
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 971
+        width: 52
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461d82d86384ee741aab4aab2e5f69b9
+      internalID: -1437820355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_50
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 985
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191723b6519b6b4469a6ea62e3654e0e
+      internalID: -1453928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_51
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 997
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4942b0cbecb6b4c9540f727e0e07e3
+      internalID: -671497859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_52
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1010
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7efdd3f6bb07ac45891574a76b58a56
+      internalID: -1458201866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_53
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1012
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38fb035989aa204894618ff30529e21
+      internalID: 1234470972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_54
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1010
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b5af7382f97db46a639b822e7f5b56
+      internalID: 1219965980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_55
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1004
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6e219bbdb75f6428351677d3d5fa46
+      internalID: -645721900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_56
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 994
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3adac061e874a46a398bb8c1fa8375
+      internalID: -887180426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_57
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 969
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cf693f9a7b9f6469ed7fbc5beb80c4
+      internalID: -767016092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_58
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 956
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1e24f789d84e7428ea3601a1d6081c
+      internalID: 1326624287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_59
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 827
+        width: 103
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69420f515c54764d9eabec43698b01c
+      internalID: -575408574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_60
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 846
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b715d0ecf811f459e6feec6ede44ef
+      internalID: 339617923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_61
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 818
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4a9e811ab50ac4287ad69750f36ef3
+      internalID: 551018593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_62
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 841
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30599dc0028844b408ca48273aafc3ba
+      internalID: -1438450884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_63
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 863
+        width: 103
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775751c6c3a9f4a46be170eb38ade255
+      internalID: -1616992422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_64
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 808
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4727077a4c10904fb626e9acf1ea0e6
+      internalID: 1991817882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 768
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d206e36db45859647860c7c13b35428e
+      internalID: 1926798410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_66
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 789
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203ad77f2a6aa0a42b761b572c5ac1ee
+      internalID: 349304096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_67
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 768
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4d34ea442283848ad105645c5e2bff
+      internalID: -1221514173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec08ffb55daa3ba42a4bdd121eb8bfd3
+      internalID: -380401088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_69
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 769
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c8c11d6878b1b4a8a42c63eaaa4be0
+      internalID: 58146123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_70
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 768
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968344c1f7dea4a4da07d127781e602d
+      internalID: 713134276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_71
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 617
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b7d0cd98ecc81499dc8125b83ce339
+      internalID: 541727844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_72
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 602
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05dc5a1e2e348c4386e73ccfedc798a
+      internalID: -55163241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_73
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 641
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5913af320aff16488f6a215495de72f
+      internalID: -980596321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_74
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 658
+        width: 103
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab697d750eb63a844bec50561948d43e
+      internalID: -1727187497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_75
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 620
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283995aa437129c4085ba65b02dbb060
+      internalID: 938660734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_76
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 605
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6545129a3dd59934d8b3dcf95b0845e3
+      internalID: 1361401953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_77
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 638
+        width: 76
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e48066b6e928c74788b6d7a66276cf4
+      internalID: -2086283510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_78
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 630
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaea762454550be4cba02cfe215aa924
+      internalID: 80184925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_79
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 610
+        width: 85
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef715983d5e8ce46b238b0ec214c212
+      internalID: 1679953532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_80
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 568
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f32dfb484fd097438586b8987babca7
+      internalID: 604791976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 544
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76317583925a14d4aba3ad00210e7a9a
+      internalID: -2066036350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_82
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 545
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ca34ed811fa1646b4f8ee4fdf8ff55
+      internalID: -1205768203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_83
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 579
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1821ab6e4af81f6468fa65de83fa6e70
+      internalID: 1100610767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_84
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 544
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74b449661e4a8441b1b9cb8c85883bb
+      internalID: -176366335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_85
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 544
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7815a6f947205f749a214bf8ca061bdd
+      internalID: 2111385710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_86
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 545
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e0b59c89c62984c8acea4984904be7
+      internalID: -835554570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_87
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 544
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4da5bc940485aa48856c5606b6548f2
+      internalID: 2034398060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_88
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 337
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51ea45b4c885f54e872abac54c54a92
+      internalID: 461836225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_89
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 401
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4e384b4f6ab2a4ba3850f3628b1270
+      internalID: -778774155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_90
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 337
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fa653b6bd783c4ab79894bea7305ee
+      internalID: 1966143040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_91
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 397
+        width: 59
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530b1ce5ea779d340ae3ea8e7e42ea43
+      internalID: 1518940400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_92
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 410
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3903f9481ae834885708355b7206c8
+      internalID: -1551722536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_93
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 364
+        width: 59
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6970266c2978744d9fc348d5fa1a5b1
+      internalID: 1938673465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_94
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 337
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06da1a9c5346d54429941bd5af08fb2e
+      internalID: -958407523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_95
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 412
+        width: 76
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75259c619f407e84eb5a0733aeb3da1d
+      internalID: 1807249326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_96
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 414
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a5e4ef58bfa6b45b7f901a950c8c8c
+      internalID: 21003689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_97
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 402
+        width: 85
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb45088407bd707468031339ec234317
+      internalID: -531877681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_98
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 365
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b519f778aed584fbaa4589cfb2095d
+      internalID: 1730351126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_99
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 336
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de287562cdbf0345ada022972468bd9
+      internalID: 893996434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_100
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 336
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e27c1e663e9744380114262c827a6c
+      internalID: 1590234375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_101
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 336
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669ac8377a045c6428a5d513c23dd136
+      internalID: -1294864601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_102
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 336
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3373cee6a8937614094b53f062da0751
+      internalID: 2067640947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_103
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 336
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65a930f4c7d8c84cbf4704f70b808a7
+      internalID: 262989424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_104
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 336
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716d5fd288036de439f3894afcfd847e
+      internalID: 17971979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_105
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 71
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c3c39024cc0ea4696ef04fd9949214
+      internalID: -285026493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_106
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 192
+        width: 47
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ac296694eeb194d88a5e61da76ea31
+      internalID: -1079208057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_107
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 71
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e8eb06ee2ebb64199c1857b51f8a98
+      internalID: 554673342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_108
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 192
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc28c286aaf2b5244aee953a51efeb15
+      internalID: -14233593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_109
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 192
+        width: 82
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97adaacb571fee448c698edba92ec04
+      internalID: -1869215310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_110
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 192
+        width: 71
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef178ea93ca30e6459e349092a694cc7
+      internalID: 1649373126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_111
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 192
+        width: 47
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d414395d6a2d9c34c827c4087576fcbb
+      internalID: 126108052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_112
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 192
+        width: 71
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e892e91e8cd33147af65477191fd045
+      internalID: 1453946976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_113
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 192
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ff60760e1dc7443a6ed4e51643ba02
+      internalID: -1801474646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_114
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 192
+        width: 82
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70237b57def66748a2bac0e5c19a76b
+      internalID: -1952116413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_115
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 192
+        width: 96
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cf6bff3f577154aa974f579142d63c
+      internalID: -1027869919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_116
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 192
+        width: 96
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9573ac5800c854e4097354129a8b81e8
+      internalID: -260029388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_117
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 49
+        width: 56
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05878674930f3554c8b9e4f4d556245b
+      internalID: 141962136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_118
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 43
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cf6c983c3bc7043aeb280f6613e816
+      internalID: -979787672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_119
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 48
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce6adf0629acf148925bca61125cac0
+      internalID: -517478079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_120
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 48
+        width: 96
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17bf60056fba9c479da9f4067d8c249
+      internalID: -1782124599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_121
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 48
+        width: 123
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6fd3f3fe69924469ede3eb3e2d84e5
+      internalID: -1621948781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_122
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 48
+        width: 81
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851976ee467f64c4583f3de9d166638b
+      internalID: -1221791416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_123
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 48
+        width: 123
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f26ea694b8941146ae46fcb1e912481
+      internalID: 1581022668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_124
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 48
+        width: 81
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f5aea999aa23f4a82470b0d989aedf
+      internalID: 122931445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_125
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 48
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfba9b66bcc8cd74290dcaea8475845b
+      internalID: -122770736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_126
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 48
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4936c4de71acc224e95d315c71815587
+      internalID: -897757502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_127
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 48
+        width: 96
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bffbc2477a82ed4b8d05d1f6bfd4161
+      internalID: 585384813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FF_Guy_128
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 48
+        width: 123
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f8b9f409ef0fb48ac90ceb7acdfc71
+      internalID: -844510007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FF_Guy_0: 1834724620
+      FF_Guy_1: 935983536
+      FF_Guy_10: 2041539289
+      FF_Guy_100: 1590234375
+      FF_Guy_101: -1294864601
+      FF_Guy_102: 2067640947
+      FF_Guy_103: 262989424
+      FF_Guy_104: 17971979
+      FF_Guy_105: -285026493
+      FF_Guy_106: -1079208057
+      FF_Guy_107: 554673342
+      FF_Guy_108: -14233593
+      FF_Guy_109: -1869215310
+      FF_Guy_11: 1320996769
+      FF_Guy_110: 1649373126
+      FF_Guy_111: 126108052
+      FF_Guy_112: 1453946976
+      FF_Guy_113: -1801474646
+      FF_Guy_114: -1952116413
+      FF_Guy_115: -1027869919
+      FF_Guy_116: -260029388
+      FF_Guy_117: 141962136
+      FF_Guy_118: -979787672
+      FF_Guy_119: -517478079
+      FF_Guy_12: -2141364721
+      FF_Guy_120: -1782124599
+      FF_Guy_121: -1621948781
+      FF_Guy_122: -1221791416
+      FF_Guy_123: 1581022668
+      FF_Guy_124: 122931445
+      FF_Guy_125: -122770736
+      FF_Guy_126: -897757502
+      FF_Guy_127: 585384813
+      FF_Guy_128: -844510007
+      FF_Guy_13: -303663193
+      FF_Guy_14: 1599959607
+      FF_Guy_15: -1612458590
+      FF_Guy_16: 1893104405
+      FF_Guy_17: -1834826464
+      FF_Guy_18: -1157719470
+      FF_Guy_19: 1372348651
+      FF_Guy_2: 1134378706
+      FF_Guy_20: 1505348311
+      FF_Guy_21: 995629347
+      FF_Guy_22: 1517453635
+      FF_Guy_23: 598547032
+      FF_Guy_24: 513048125
+      FF_Guy_25: 1450181689
+      FF_Guy_26: -1536017790
+      FF_Guy_27: -1394864298
+      FF_Guy_28: 1580137008
+      FF_Guy_29: 1146694590
+      FF_Guy_3: -1448354543
+      FF_Guy_30: 242057861
+      FF_Guy_31: -2096754724
+      FF_Guy_32: 1725405438
+      FF_Guy_33: 1489841790
+      FF_Guy_34: -148243493
+      FF_Guy_35: -1922231156
+      FF_Guy_36: 1092325545
+      FF_Guy_37: 514438507
+      FF_Guy_38: 1922884919
+      FF_Guy_39: 1135243131
+      FF_Guy_4: 249152742
+      FF_Guy_40: 809710214
+      FF_Guy_41: -1651314605
+      FF_Guy_42: 1915770156
+      FF_Guy_43: 1561986187
+      FF_Guy_44: -397173903
+      FF_Guy_45: -1537419388
+      FF_Guy_46: 1462672832
+      FF_Guy_47: -573122180
+      FF_Guy_48: -2062390229
+      FF_Guy_49: -1437820355
+      FF_Guy_5: 1288206857
+      FF_Guy_50: -1453928
+      FF_Guy_51: -671497859
+      FF_Guy_52: -1458201866
+      FF_Guy_53: 1234470972
+      FF_Guy_54: 1219965980
+      FF_Guy_55: -645721900
+      FF_Guy_56: -887180426
+      FF_Guy_57: -767016092
+      FF_Guy_58: 1326624287
+      FF_Guy_59: -575408574
+      FF_Guy_6: 1271180770
+      FF_Guy_60: 339617923
+      FF_Guy_61: 551018593
+      FF_Guy_62: -1438450884
+      FF_Guy_63: -1616992422
+      FF_Guy_64: 1991817882
+      FF_Guy_65: 1926798410
+      FF_Guy_66: 349304096
+      FF_Guy_67: -1221514173
+      FF_Guy_68: -380401088
+      FF_Guy_69: 58146123
+      FF_Guy_7: 602849047
+      FF_Guy_70: 713134276
+      FF_Guy_71: 541727844
+      FF_Guy_72: -55163241
+      FF_Guy_73: -980596321
+      FF_Guy_74: -1727187497
+      FF_Guy_75: 938660734
+      FF_Guy_76: 1361401953
+      FF_Guy_77: -2086283510
+      FF_Guy_78: 80184925
+      FF_Guy_79: 1679953532
+      FF_Guy_8: 1889815888
+      FF_Guy_80: 604791976
+      FF_Guy_81: -2066036350
+      FF_Guy_82: -1205768203
+      FF_Guy_83: 1100610767
+      FF_Guy_84: -176366335
+      FF_Guy_85: 2111385710
+      FF_Guy_86: -835554570
+      FF_Guy_87: 2034398060
+      FF_Guy_88: 461836225
+      FF_Guy_89: -778774155
+      FF_Guy_9: -826994327
+      FF_Guy_90: 1966143040
+      FF_Guy_91: 1518940400
+      FF_Guy_92: -1551722536
+      FF_Guy_93: 1938673465
+      FF_Guy_94: -958407523
+      FF_Guy_95: 1807249326
+      FF_Guy_96: 21003689
+      FF_Guy_97: -531877681
+      FF_Guy_98: 1730351126
+      FF_Guy_99: 893996434
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
