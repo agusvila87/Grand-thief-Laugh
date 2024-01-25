@@ -1,0 +1,3141 @@
+fileFormatVersion: 2
+guid: 4a8efd01c149f3d48892e2f5cbf75e09
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 410
+        width: 35
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95602b148a9fc674995cdc49e9140e6d
+      internalID: -1316335858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 472
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9e94891d05b3f49b9eae460ff2c29b
+      internalID: 1443334500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 411
+        width: 36
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4059413d7429d8949ac5bcdc31638af8
+      internalID: 770956021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_3
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 411
+        width: 39
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210fde70e56c929438f65a8e8df6b0ca
+      internalID: 1174997539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_4
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 411
+        width: 32
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a5c0cd7fcb8eb418a69fdd5af4c1a8
+      internalID: 1273946106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 472
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ff72d26923ea34fa082a248a9edfac
+      internalID: -1031409154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_6
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 470
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f639b2e78715d0540a8d183cdc828713
+      internalID: -1298381826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_7
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 471
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486f464cd2fa85048ae53d1cfbf5c04b
+      internalID: 1893867574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 411
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955266d1629eb37479a5b1b8864aeecd
+      internalID: -187014920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_9
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 411
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98c9f7ed82a2e4498c36b0380e085d6
+      internalID: 197127962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_10
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 411
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44f5454f13ed9c49a9695cd116de2d9
+      internalID: -490211135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_11
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 427
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2d1e0a6a0d5e341872dd1955054a56
+      internalID: 798983494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_12
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 379
+        width: 46
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dd68f2536164547858a0c7dc5169c8
+      internalID: -1494030871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_13
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 379
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0b01e655abdcf4c82ec87ee687dbaa
+      internalID: 902662176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_14
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 379
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfffb09e44864a347aabc974d5a9ea29
+      internalID: -598586213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_15
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 379
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be84982cbf73fae4ab1858e2411bd6a3
+      internalID: -418637774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_16
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 379
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0118f70aaed18a4a88e7c5f59a74bd3
+      internalID: -723955151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_17
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 379
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1eb6f463a4b9b74d99c2506a115c29d
+      internalID: 820483770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 379
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc9adb202d413040b50d11ee45a37da
+      internalID: 1656806321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_19
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 388
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f532d4848c700b469aebce623f4d5b6
+      internalID: -1845560033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_20
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 379
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2db9b6dcccff5459a9af8a8b8d855d
+      internalID: 1187259862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_21
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 346
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63aa0b3b86606494aacd8a857dd52914
+      internalID: 1297073203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_22
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 346
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08aa7cc612e188c43abd0e692c303e17
+      internalID: 603017844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_23
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 346
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557672f654712bd429cf92ecf5bad78e
+      internalID: -1503241407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_24
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 346
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d64d828666f074db79e6595b88a7e6
+      internalID: -1528549017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_25
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 346
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af44a49bf33ceaf47a0a043f778b161e
+      internalID: -2065243199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_26
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 346
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c53d2ab37a84dc429405488c29c7eac
+      internalID: 1973976557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_27
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 346
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cfa43a27787d24d80132aa5d160561
+      internalID: -80642295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_28
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 346
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f354b08dc38b35847aff15dd820e425e
+      internalID: 1332972348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 282
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a46ff9bb0ef77d4bb801cd9a94a9f37
+      internalID: -2004784184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 314
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318c5f3628598a647a93099fa9ba756f
+      internalID: 1546560708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_31
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 282
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbe4c0105d6f1242b5f0854265301c0
+      internalID: 2055655165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 282
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c8184c2d3d8d54eb227c710b17d48c
+      internalID: 459764844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_33
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 314
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e0ab95eb35c7f4fa5c3efa4fcb6a0d
+      internalID: -528460105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_34
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 314
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e302cf3a04c97104490a07fba83ce1c6
+      internalID: -40664584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_35
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 282
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34de344a295775d45b9efe6ff861678f
+      internalID: -215788421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_36
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 334
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61be749b76f3c0a48b56c0c41a8853b0
+      internalID: -949872552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_37
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 314
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7790ecf6799d4e42aea04ac3e6d4dfc
+      internalID: -1057845688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_38
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 314
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7a15d2a3f18df4791595a866feafcb
+      internalID: 1540759593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_39
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 282
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111a222ff5f4e424f9d9afeb8d8153bc
+      internalID: -69086055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_40
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 282
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75e8255c5a32db4a920ab8d872f7d87
+      internalID: 2103759290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_41
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 282
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5ad428239fb8f4d96417942c153514
+      internalID: 339572040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_42
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 300
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77be13714fd566d47a557750618b64a1
+      internalID: -1894387374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_43
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 282
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c1684bc36a28d4bb050619fd7a74d3
+      internalID: -1488097606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_44
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 249
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42b57f5f1ad87046a03c268372e3e22
+      internalID: -1689892085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_45
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 249
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b768b4fc17f5a40aa86e1be5832759
+      internalID: -298744732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_46
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 249
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d811687d1c3578d40adf9be8761f0ce8
+      internalID: -1516634449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_47
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 249
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83755338284da3141bc89d0e770ecc0e
+      internalID: 39708208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_48
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 249
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbbce826ab94fb42b72de5e6161aa77
+      internalID: 1059544788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_49
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 249
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef7f71971c121e4e9dfcae4653f9600
+      internalID: -1419278184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_50
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 249
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc7e72c925c0cf43828dfa5190e8678
+      internalID: 1690721616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_51
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 249
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac970fb0545847047a2b0647a3c16ddf
+      internalID: 1216611190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_52
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 216
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e76a806082b0342989013eb408e0dd
+      internalID: -587474208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_53
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 215
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4932954e5b8a9ce4897bfae1bcceba32
+      internalID: -1510889366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_54
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 215
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e4d3d8e2e373d46a1a09b3d4cb8e36
+      internalID: 427059397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_55
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 216
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bd0711c079cff4eb8ed01140e7b155
+      internalID: 194940697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_56
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 216
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402970b28a4c79f46af13c8d80fa30e7
+      internalID: -1892197430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_57
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 216
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f727ca4b35c5c428b7e0a0b95302c6
+      internalID: -1631744049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_58
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 216
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8992481c708fd5b41aac171a61a820e3
+      internalID: -377393540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_59
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 215
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5cfd208aef4ea4c821ebae17094f46
+      internalID: 1994617168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_60
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 208
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe94dff9712a7b498851e9ec39c643c
+      internalID: -1232181906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_61
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 207
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e53c8e972d86844afd3b21033a9a6e
+      internalID: -1632256028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_62
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 207
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3673326eb2ec8274fa12210b253441e1
+      internalID: 1475085605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_63
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 207
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ec0c389b0319a4f84f443db5f1f4ec
+      internalID: 1089629424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_64
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 152
+        width: 27
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea07fb2ed4bdd3747a6f856e7ba30c8d
+      internalID: -308252113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_65
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 184
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4c87f113cb0454d841f6f33d25f298
+      internalID: -1914542507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_66
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 152
+        width: 26
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c25f4099a872341af1e1b932d275ca
+      internalID: -519019377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_67
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 184
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6118fde4b1ed8b46a627fe787b8f96b
+      internalID: -2013250229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_68
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 184
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55719ef10209bf4ea5a2fe0cd6ec62f
+      internalID: 119267545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_69
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 184
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5fd8de2329b4f4c81b86f3527d84ce
+      internalID: -1360829358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_70
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 120
+        width: 92
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa56227295a41ca4c9793d9201448083
+      internalID: 531092102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_71
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 184
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fef7633e59b0a64f816b7b98933b719
+      internalID: -1928220523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_72
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 194
+        width: 61
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2330a038d0e194749a1ad35e2bbbdb6c
+      internalID: -1805001992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_73
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 191
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f937cd0a62b0044ab249547f36888c
+      internalID: -155504667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_74
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 152
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85341b10f8905841b1758c9b58b0552
+      internalID: -229704604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_75
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 152
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dd73689b7e63f4593327e27683beed
+      internalID: -469030535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_76
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 152
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfeac3c7f38c304b97eee85fdbfb98a
+      internalID: 858676429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_77
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 120
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5fd431c0b1f5244929c2a38f9e0a8b
+      internalID: -27898271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_78
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 151
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1994644071dd7d439e7ea71ff8836c3
+      internalID: -686055685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_79
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 174
+        width: 77
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1d30f5c2f37d4438c92b710ebf0a29
+      internalID: 1641809445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_80
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 157
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a88784175005be418cccf41702fd1e6
+      internalID: 383747354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_81
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 158
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b05b12f6a1afc499211078b848e3ee
+      internalID: -1984566365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_82
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 120
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cde18cb663e0a14baf39945e66ed834
+      internalID: -855586455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_83
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 120
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dd722a085fca64993e123f1ef8bddc
+      internalID: 1017871836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_84
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 120
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e3be6364ce8cf4989b1a1eca0f9c3e
+      internalID: -547222964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_85
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 120
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f82a72b5a0c954da1f5ef4fb970925
+      internalID: 99495817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_86
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 120
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6de92a7baa0cfd41a2af647f988762a
+      internalID: -655993394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_87
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 128
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb59ec902dbdfe44a7f55b6b08059b8
+      internalID: -2118983962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_88
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 88
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9a5bce7de2c9e45be3f9da0459f703
+      internalID: 511289585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_89
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 87
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea41e201995092d46ad9bd240ff5deef
+      internalID: 1016602513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_90
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 87
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6de531e0a76fb4fba97f027b52b4db
+      internalID: -1079860741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_91
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 87
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef65e9712b96f004b815a45e5ac3216d
+      internalID: -242373978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 87
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a63f6561dfa9374fbbb36507fc7c43a
+      internalID: 63775520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_93
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 88
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfebc6e5ae02234794a42b7ed144874
+      internalID: 382646027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_94
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 88
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1740eaee6662cea46be9cca0e0f109dc
+      internalID: 15091995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_95
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 88
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8695f00c8b5a1241b3247e1cb8d137b
+      internalID: -635999690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_96
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 105
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ac0b73d838e074a8c159b894cd747a
+      internalID: 631170727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_97
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 87
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ea34220118fe24eaeb37a3cef47755
+      internalID: -1189032151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_98
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 88
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d37b47fecb376418e1367f61ed4454
+      internalID: 680932003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_99
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 87
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07af4370f28879741af2d7880d784c0b
+      internalID: -1635662758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_100
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 55
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a321e6d223cd9d641a487f032a3d38c8
+      internalID: -650658353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_101
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 55
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695d3b6ed4553964783d518410ae3b6d
+      internalID: -671479055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_102
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 54
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7b3bba3a3d89048826898adb5a8683
+      internalID: -540534346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_103
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 54
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c900c1ba36caa642900ccc833ce7961
+      internalID: -1967121261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_104
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 54
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7e41f8cee4021498e27655f22c1bcf
+      internalID: -2012292304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_105
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 55
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e11d8cbe17a454ab1c10330b5d5ced
+      internalID: -433317703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_106
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 54
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed500c2ae6b48c44c924a46ad3b97a8b
+      internalID: -1284006727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_107
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 55
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77adab7bbd346d4479ee82cb19b91086
+      internalID: 1221558218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_108
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 54
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4397b59ff5734d547b1f5f0c8439987f
+      internalID: -1950816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_109
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 55
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ed2470826132148b6da5830d802f37
+      internalID: 2078606966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_110
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 55
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0c35f8bb662a44fae8e3d5fda2067a
+      internalID: -1303636607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_111
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 22
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0864f1a2feece7f48928cf2b5fc3b443
+      internalID: 173527306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_112
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 22
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269176c215f12704293fe041e971a5d8
+      internalID: -1323705465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_113
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 22
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91c34fd7d92dd34b972c98c636c55ec
+      internalID: 255764833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_114
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 22
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271e874d381f0bd4f90ccc90af762a6c
+      internalID: -730286248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_115
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 22
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24993370fb2fa764ebdb0d80683d2c9b
+      internalID: -1850043371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_116
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 22
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415682e8984c378449387fb2fa1c6a73
+      internalID: -1363491274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_117
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 22
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08eca88e87d57e14e94425a4266c4cfe
+      internalID: 837605420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_118
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 36
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63b14a13e024804592091e154d60639
+      internalID: -1300754994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_119
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 22
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2931e69c68ae274598ec2a5c6d23a75
+      internalID: 394358231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_120
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 39
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98059760f7123b545850125621792be7
+      internalID: -1226076983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_121
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 22
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0719baacfe0d83349b6fbeeff4f42524
+      internalID: -76943699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_122
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 22
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959c76d6ce603ac4e90732658773a58a
+      internalID: -357312585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_123
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 22
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba93bd0c03b662f44bc5f9ecf2215662
+      internalID: -1361946156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_124
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 3
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3f0abf02b7e31498fe33f8eb24c603
+      internalID: 1420060290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_125
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f4c83d734cad44da8650eedfa81301
+      internalID: -1202788377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_126
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adce66c6766b92b4687bbe74fe0aac0a
+      internalID: 1035047396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_127
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 3
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335d08cae83c25f4497057f6f433b607
+      internalID: -934959022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_128
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 3
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ca7a225122e504892e51b519ab55f8
+      internalID: -75685480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_129
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 3
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0c03bb42bc3b54abb48976a38a8f0c
+      internalID: 540011811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_130
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9407314eab6d6dc4f945e93b7ea243bd
+      internalID: -1250414517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_131
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cab421cf47f22848a8f1e388aecf9a0
+      internalID: -1651352499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_132
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 3
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d95f1e73ffa64c4692848d604f380c4
+      internalID: 133982742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_133
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 3
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6913c7af412808d4dbd1bbafd1c55f8e
+      internalID: -1131145170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_134
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 3
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e41e725d39e15b449808bb7c4241138
+      internalID: -1601460159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_135
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 3
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708c31822245f8b4d99e192aa63e5876
+      internalID: 1161216306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_136
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 3
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffeafde23cca79e4287afd1e67535fb9
+      internalID: 481772476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_0: -1316335858
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_1: 1443334500
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_10: -490211135
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_100: -650658353
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_101: -671479055
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_102: -540534346
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_103: -1967121261
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_104: -2012292304
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_105: -433317703
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_106: -1284006727
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_107: 1221558218
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_108: -1950816
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_109: 2078606966
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_11: 798983494
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_110: -1303636607
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_111: 173527306
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_112: -1323705465
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_113: 255764833
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_114: -730286248
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_115: -1850043371
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_116: -1363491274
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_117: 837605420
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_118: -1300754994
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_119: 394358231
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_12: -1494030871
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_120: -1226076983
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_121: -76943699
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_122: -357312585
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_123: -1361946156
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_124: 1420060290
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_125: -1202788377
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_126: 1035047396
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_127: -934959022
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_128: -75685480
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_129: 540011811
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_13: 902662176
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_130: -1250414517
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_131: -1651352499
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_132: 133982742
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_133: -1131145170
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_134: -1601460159
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_135: 1161216306
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_136: 481772476
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_14: -598586213
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_15: -418637774
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_16: -723955151
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_17: 820483770
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_18: 1656806321
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_19: -1845560033
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_2: 770956021
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_20: 1187259862
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_21: 1297073203
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_22: 603017844
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_23: -1503241407
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_24: -1528549017
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_25: -2065243199
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_26: 1973976557
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_27: -80642295
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_28: 1332972348
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_29: -2004784184
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_3: 1174997539
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_30: 1546560708
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_31: 2055655165
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_32: 459764844
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_33: -528460105
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_34: -40664584
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_35: -215788421
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_36: -949872552
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_37: -1057845688
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_38: 1540759593
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_39: -69086055
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_4: 1273946106
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_40: 2103759290
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_41: 339572040
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_42: -1894387374
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_43: -1488097606
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_44: -1689892085
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_45: -298744732
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_46: -1516634449
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_47: 39708208
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_48: 1059544788
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_49: -1419278184
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_5: -1031409154
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_50: 1690721616
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_51: 1216611190
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_52: -587474208
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_53: -1510889366
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_54: 427059397
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_55: 194940697
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_56: -1892197430
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_57: -1631744049
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_58: -377393540
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_59: 1994617168
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_6: -1298381826
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_60: -1232181906
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_61: -1632256028
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_62: 1475085605
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_63: 1089629424
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_64: -308252113
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_65: -1914542507
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_66: -519019377
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_67: -2013250229
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_68: 119267545
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_69: -1360829358
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_7: 1893867574
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_70: 531092102
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_71: -1928220523
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_72: -1805001992
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_73: -155504667
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_74: -229704604
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_75: -469030535
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_76: 858676429
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_77: -27898271
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_78: -686055685
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_79: 1641809445
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_8: -187014920
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_80: 383747354
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_81: -1984566365
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_82: -855586455
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_83: 1017871836
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_84: -547222964
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_85: 99495817
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_86: -655993394
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_87: -2118983962
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_88: 511289585
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_89: 1016602513
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_9: 197127962
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_90: -1079860741
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_91: -242373978
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_92: 63775520
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_93: 382646027
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_94: 15091995
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_95: -635999690
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_96: 631170727
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_97: -1189032151
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_98: 680932003
+      Mobile_-_Police_Story_-_Police_School-removebg-preview (1)_99: -1635662758
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

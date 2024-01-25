@@ -9,9 +9,10 @@ public class NpcActions : MonoBehaviour
     [SerializeField] private float spawnLeft;
     [SerializeField] private float spawnRight;
     [SerializeField] GameObject sprite;
-    public bool isRight;
-
+    private bool isRight;
+    bool isSpriteActive;
     NpcMovement npcMovement;
+    float originalSpeed;
 
     void Start()
     {
@@ -29,19 +30,29 @@ public class NpcActions : MonoBehaviour
             return;
         }
 
-        Spawn();
+        originalSpeed = npcMovement.velocidad;
 
+        sprite.SetActive(false);
+        Invoke("Spawn", Random.Range(0, 1.5f));
 
     }
 
 
     public void Spawn() 
     {
+        if (!isSpriteActive) 
+        {
+            isSpriteActive = true;
+            sprite.SetActive(true);
+        }
+
         if (isRight)
         {
+
             transform.position = new Vector3(spawnLeft, Random.Range(minY, maxY));
             if (npcMovement != null)
             {
+                npcMovement.velocidad = Random.Range(originalSpeed - 15f, originalSpeed + 10f);
                 npcMovement.velocidad = Mathf.Abs(npcMovement.velocidad); // Valor positivo
             }
             sprite.transform.rotation = Quaternion.Euler(0, 0, 0);
@@ -52,6 +63,7 @@ public class NpcActions : MonoBehaviour
             transform.position = new Vector3(spawnRight, Random.Range(minY, maxY));
             if (npcMovement != null)
             {
+                npcMovement.velocidad = Random.Range(originalSpeed - 15f, originalSpeed + 10f);
                 npcMovement.velocidad = -Mathf.Abs(npcMovement.velocidad); // Valor negativo
             }
             sprite.transform.rotation = Quaternion.Euler(0, 180, 0);
