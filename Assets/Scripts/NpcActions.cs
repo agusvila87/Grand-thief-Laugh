@@ -52,7 +52,7 @@ public class NpcActions : MonoBehaviour
             transform.position = new Vector3(spawnLeft, Random.Range(minY, maxY));
             if (npcMovement != null)
             {
-                npcMovement.velocidad = Random.Range(originalSpeed - 15f, originalSpeed + 10f);
+                npcMovement.velocidad = Random.Range(originalSpeed - 75f, originalSpeed);
                 npcMovement.velocidad = Mathf.Abs(npcMovement.velocidad); // Valor positivo
             }
             sprite.transform.rotation = Quaternion.Euler(0, 0, 0);
