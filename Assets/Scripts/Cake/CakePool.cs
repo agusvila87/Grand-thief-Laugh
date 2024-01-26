@@ -1,5 +1,4 @@
 ﻿using ObjectPoolingPattern;
-using System;
 using System.Collections;
 using UnityEngine;
 
@@ -30,6 +29,10 @@ public class CakePool : MonoBehaviour
     public void DestroyCake(GameObject cake)
     {
         StartCoroutine(RecicleCake(cake));
+    }
+    public void DestroyCakeInmediatly(GameObject cake)
+    {
+        ObjectPooling.RecicleObject(cakeGO, cake);
     }
 
     private IEnumerator RecicleCake(GameObject cake)

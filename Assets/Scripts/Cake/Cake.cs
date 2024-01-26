@@ -7,22 +7,14 @@ public class Cake : MonoBehaviour
     public void Move(Vector2 playerVelocity)
     {
         rb2d.velocity = playerVelocity;
-      //  rb2d.AddForce(playerVelocity);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<NpcActions>()) 
+        if (collision.TryGetComponent(out NpcActions action))
         {
-            NpcActions action = collision.GetComponent<NpcActions>();
-
-            if (action != null) 
-            {
-                string npcCode = action.npcCode;
-            }
-
-            gameObject.SetActive(false);
-
+            action.Caked();
+            CakePool.instance.DestroyCakeInmediatly(gameObject);
         }
     }
 }
