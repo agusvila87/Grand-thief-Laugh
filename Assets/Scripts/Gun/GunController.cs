@@ -6,9 +6,7 @@ public class GunController : MonoBehaviour
     public static GunController instance;
     [SerializeField] private Transform bead;
 
-    [SerializeField] private int velocity;
-    private Vector3 cakeVelocity => PlayerController.instance.gameObject.GetComponent<Rigidbody2D>().velocity;
-
+    [SerializeField, Range(10f, 100f)] private int velocity = 50;
 
     GunCooldown gunCooldown => GetComponent<GunCooldown>();
 
@@ -31,17 +29,8 @@ public class GunController : MonoBehaviour
 
     private void SetCake(GameObject cakeGO)
     {
-        cakeGO.transform.SetPositionAndRotation(bead.position, bead.rotation);
-
-        cakeGO.GetComponent<Cake>().Move(NormalizedVelocity() + Vector2.right * velocity);
-    }
-
-    private Vector2 NormalizedVelocity()
-    {
-        float x = Mathf.Max(0, cakeVelocity.x);
-
-        Vector2 result = new Vector2(x, 0);
-        return result;
+        cakeGO.transform.SetPositionAndRotation(bead.transform.position, bead.transform.rotation);
+        cakeGO.GetComponent<Cake>().Move(bead.right * velocity);
     }
 }
 

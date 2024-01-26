@@ -1,21 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CameraYChangeScene : MonoBehaviour
 {
-    Animator animator;
-    public GameObject menuGO;
-    public GameObject creditosGO;
-    void Start()
-    {
-        animator = GetComponent<Animator>();   
-    }
-    void Update()
-    {
-        
-    }
+    private Animator animator => GetComponent<Animator>(); 
+
+    [SerializeField] private GameObject menuGO;
+    [SerializeField] private GameObject creditosGO;
 
     public void GoCreditos()
     {
