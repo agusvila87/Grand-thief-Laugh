@@ -13,9 +13,11 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private int LifePoints;
 
+    MainCamera mainCamera;
     private void Awake()
     {
         instance = this;
+        mainCamera=FindObjectOfType<MainCamera>();
     }
 
     public void Move(Vector2 inputMovement)
@@ -39,5 +41,16 @@ public class PlayerController : MonoBehaviour
 
 
         animator.SetBool("IsWalking", inputMovement.magnitude != 0f);
+    }
+
+    public void Shoot()
+    {
+        animator.SetBool("Shoot", true);
+        mainCamera.ShakeCamera();
+    }
+
+    void ShootOff()
+    {
+        animator.SetBool("Shoot", false);
     }
 }

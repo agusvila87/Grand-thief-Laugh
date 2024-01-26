@@ -13,6 +13,7 @@ public class Cake : MonoBehaviour
     {
         if (collision.TryGetComponent(out NpcActions action))
         {
+            Debug.Log("detecto al npc");
             action.Caked();
             CakePool.instance.DestroyCakeInmediatly(gameObject);
         }
