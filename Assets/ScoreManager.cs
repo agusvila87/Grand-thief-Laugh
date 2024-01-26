@@ -38,32 +38,3 @@ public class ScoreManager : MonoBehaviour
         updateScoreEvent.Invoke(currentScore);
     }
 }
-
-public class CurrentTargetAudience : MonoBehaviour
-{
-    public static CurrentTargetAudience Instance;
-
-    private void Awake()
-    {
-        Instance = this;
-    }
-
-    public int GetCurrentScore(TypeOfNPC caked)
-    {
-        var current = GetCurrentAudience();
-
-        if (caked == current.typeObjective)
-        {
-            return current.scoreGiven;
-        }
-        else
-        {
-            return current.scoreTaken;
-        }
-    }
-
-    private CurrentAudience GetCurrentAudience()
-    {
-        throw new NotImplementedException();
-    }
-}

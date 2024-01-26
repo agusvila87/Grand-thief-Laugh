@@ -23,14 +23,20 @@ public class PlayerController : MonoBehaviour
         Vector2 movement = inputMovement * speed;
 
         rb2d.velocity = movement;
-        
-        Vector3 vector3 = Vector3.zero;
 
+        Vector3 vector3;
+
+        if (inputMovement.x > 0)
+        {
+            vector3 = Vector3.zero;
+            transform.rotation = Quaternion.Euler(vector3);
+        }
         if (inputMovement.x < 0)
         {
             vector3 = new Vector3(0, -180, 0);
+            transform.rotation = Quaternion.Euler(vector3);
         }
-        transform.rotation = Quaternion.Euler(vector3);
+
 
         animator.SetBool("IsWalking", inputMovement.magnitude != 0f);
     }
