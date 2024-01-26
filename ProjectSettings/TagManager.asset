@@ -50,3 +50,6 @@ TagManager:
   - name: Characters
     uniqueID: 2115588821
     locked: 0
+  - name: Layer
+    uniqueID: 654037407
+    locked: 0
