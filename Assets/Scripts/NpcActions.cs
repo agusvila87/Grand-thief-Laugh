@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class NpcActions : MonoBehaviour
 {
     [SerializeField] private float minY;
@@ -9,10 +10,13 @@ public class NpcActions : MonoBehaviour
     [SerializeField] private float spawnLeft;
     [SerializeField] private float spawnRight;
     [SerializeField] GameObject sprite;
+    private Animator animator;
+    public string npcCode;
     private bool isRight;
     bool isSpriteActive;
     NpcMovement npcMovement;
     float originalSpeed;
+    
 
     void Start()
     {
@@ -69,4 +73,16 @@ public class NpcActions : MonoBehaviour
             sprite.transform.rotation = Quaternion.Euler(0, 180, 0);
         }
     }
+
+    public void Caked()
+    {
+
+        animator.SetTrigger("isCaked");
+        int randomValue = Random.Range(0, 2);
+
+        // Convierte el número a un booleano (0 será false, 1 será true)
+        isRight = (randomValue == 1);
+
+    }
+
 }

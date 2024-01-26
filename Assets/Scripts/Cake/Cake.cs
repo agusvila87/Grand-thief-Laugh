@@ -8,4 +8,20 @@ public class Cake : MonoBehaviour
     {
         rb2d.velocity = playerVelocity + Vector2.right;
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.GetComponent<NpcActions>()) 
+        {
+            NpcActions action = collision.GetComponent<NpcActions>();
+
+            if (action != null) 
+            {
+                string npcCode = action.npcCode;
+            }
+
+            gameObject.SetActive(false);
+
+        }
+    }
 }

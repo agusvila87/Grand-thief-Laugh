@@ -29,6 +29,7 @@ public class NpcColliders : MonoBehaviour
 
         if (collision.CompareTag("Proyectil")) 
         {
+            npcActions.Caked();
             Debug.Log("Se disparo al player");
         }
     }
