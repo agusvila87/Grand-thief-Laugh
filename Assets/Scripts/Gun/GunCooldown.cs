@@ -7,7 +7,7 @@ public class GunCooldown : MonoBehaviour
 
     private float timer;
 
-    [SerializeField] private float cooldown;
+    [SerializeField, Range(0.01f, 3f)] private float cooldown = 1.5f;
 
     private Action timerAction;
 
