@@ -9,9 +9,7 @@ public class NpcSpawner : MonoBehaviour
     [SerializeField] private float minY, maxY;
     [SerializeField] private float spawnLeft, spawnRight;
     [SerializeField] private float minSpeed, maxSpeed;
-
     [SerializeField] private int spawnAmount;
-
     [SerializeField] private GameObject npcGO;
 
     public static NpcSpawner Instance;

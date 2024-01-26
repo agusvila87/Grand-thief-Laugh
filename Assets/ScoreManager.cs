@@ -33,7 +33,7 @@ public class ScoreManager : MonoBehaviour
     public void AddScore(NPCSO nPCSO)
     {
 
-        currentScore += CurrentTargetAudience.Instance.GetCurrentScore(nPCSO.typeOfNPC);
+        //currentScore += CurrentTargetAudience.Instance.GetCurrentScore(nPCSO.typeOfNPC);
 
         updateScoreEvent.Invoke(currentScore);
     }

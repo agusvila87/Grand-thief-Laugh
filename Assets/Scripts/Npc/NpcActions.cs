@@ -11,7 +11,7 @@ public class NpcActions : MonoBehaviour
     private NPCSO nPCSO;
     public void Caked()
     {
-        animator.SetTrigger("isCaked");
+        //animator.SetTrigger("isCaked");
         ScoreManager.Instance.AddScore(nPCSO);
         NpcSpawner.Instance.DeleteNpc(gameObject);
     }
