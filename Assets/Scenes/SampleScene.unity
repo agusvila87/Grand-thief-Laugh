@@ -2690,6 +2690,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.46
       objectReference: {fileID: 0}
+    - target: {fileID: 2624299373411363635, guid: 3ee8d869c0bb3ba49ad6728b7386c86e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5921556805407276756, guid: 3ee8d869c0bb3ba49ad6728b7386c86e, type: 3}
       propertyPath: cooldown
       value: 0.07
