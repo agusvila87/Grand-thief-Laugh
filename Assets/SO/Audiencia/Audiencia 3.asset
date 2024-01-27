@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 528b56da65c7748419c5aef310fbde24, type: 3}
-  m_Name: Audiencia 2
+  m_Name: Audiencia 3
   m_EditorClassIdentifier: 
   audienceSprites:
-    idleAudience: {fileID: 21300000, guid: 7f7fda95108cd324ba96e83f6ae1967f, type: 3}
-    happyAudience: {fileID: 21300000, guid: f8668557a2675df47a1fbc7b786e821f, type: 3}
-    angryAudience: {fileID: 21300000, guid: a08c664406163fd4eb9b5c04b3103a2d, type: 3}
+    idleAudience: {fileID: 21300000, guid: 7a94a4ab7beb2e340b392265e630b776, type: 3}
+    happyAudience: {fileID: 21300000, guid: 639f6bcbb466b514ab89fa461b021f07, type: 3}
+    angryAudience: {fileID: 21300000, guid: e69d2dc4ec8a6714db02fcfded642640, type: 3}
   typeObjective: 0
-  scoreGiven: 5
-  scoreTaken: 10
+  scoreGiven: 50
+  scoreTaken: 50

@@ -17,5 +17,5 @@ MonoBehaviour:
     happyAudience: {fileID: 21300000, guid: 2fa8b2c541f20564faa6f919e2717c84, type: 3}
     angryAudience: {fileID: 21300000, guid: 5b925ebffa4bd614ea741632bffe8719, type: 3}
   typeObjective: 0
-  scoreGiven: 500000
-  scoreTaken: 250000
+  scoreGiven: 3
+  scoreTaken: 10
