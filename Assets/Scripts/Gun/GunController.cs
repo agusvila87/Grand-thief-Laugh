@@ -21,9 +21,6 @@ public class GunController : MonoBehaviour
         GameObject cake = CakePool.instance.GetCake();
 
         SetCake(cake);
-
-        CakePool.instance.DestroyCake(cake);
-
         gunCooldown.RestartTimer();
     }
 

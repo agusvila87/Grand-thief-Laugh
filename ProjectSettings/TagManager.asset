@@ -7,6 +7,7 @@ TagManager:
   - Limites
   - Npc
   - Proyectil
+  - LimiteCake
   layers:
   - Default
   - TransparentFX

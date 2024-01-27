@@ -11,6 +11,11 @@ public class Cake : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject.CompareTag("LimiteCake"))
+        {
+            CakePool.instance.DestroyCakeInmediatly(gameObject);
+            return;
+        }
         if (collision.TryGetComponent(out NpcActions action))
         {
             Debug.Log("detecto al npc");

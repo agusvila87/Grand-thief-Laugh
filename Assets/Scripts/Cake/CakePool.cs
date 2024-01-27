@@ -10,36 +10,26 @@ public class CakePool : MonoBehaviour
 
     private WaitForSeconds wait;
 
-    [SerializeField] private int seconds;
+    [SerializeField] private float seconds;
     private void Awake()
     {
         wait = new WaitForSeconds(seconds);
         instance = this;
     }
+
     private void Start()
     {
-        ObjectPooling.PreLoad(cakeGO, 3);
+        ObjectPooling.PreLoad(cakeGO, 1);
     }
 
     public GameObject GetCake() 
     {
         return ObjectPooling.GetObject(cakeGO);
     }
-
-    public void DestroyCake(GameObject cake)
-    {
-        StartCoroutine(RecicleCake(cake));
-    }
+   
     public void DestroyCakeInmediatly(GameObject cake)
     {
-        StopCoroutine(RecicleCake(cake));
         ObjectPooling.RecicleObject(cakeGO, cake);
-    }
-
-    private IEnumerator RecicleCake(GameObject cake)
-    {
-        yield return wait;
-
-        ObjectPooling.RecicleObject(cakeGO, cake);
+        Debug.Log("SE DESACTIVA INMEDIATAMENTE");
     }
 }
