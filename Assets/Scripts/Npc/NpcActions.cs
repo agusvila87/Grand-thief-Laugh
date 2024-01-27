@@ -12,7 +12,7 @@ public class NpcActions : MonoBehaviour
     public void Caked()
     {
         //animator.SetTrigger("isCaked");
-        ScoreManager.Instance.AddScore(nPCSO);
+        GameManager.Instance.NPCHitted(nPCSO);
         NpcSpawner.Instance.DeleteNpc(gameObject);
     }
 
@@ -21,7 +21,8 @@ public class NpcActions : MonoBehaviour
         transform.SetPositionAndRotation(nPCValues.spawnPos, nPCValues.rotation);
         SetSprite(npcSO.sprite);
         SetVelocity(nPCValues.velocity);
-        this.nPCSO = npcSO;
+        nPCSO = npcSO;
+        animator.runtimeAnimatorController = npcSO.animatorController;
     }
 
     private void SetVelocity(float velocity)

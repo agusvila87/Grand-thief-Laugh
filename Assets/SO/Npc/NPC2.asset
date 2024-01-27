@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 36ae0439bf1396845b991b76a4a626cd, type: 3}
-  m_Name: Npc1
+  m_Name: NPC2
   m_EditorClassIdentifier: 
-  sprite: {fileID: 1297073203, guid: 4a8efd01c149f3d48892e2f5cbf75e09, type: 3}
+  sprite: {fileID: -469030535, guid: 4a8efd01c149f3d48892e2f5cbf75e09, type: 3}
   typeOfNPC: 0
+  animatorController: {fileID: 9100000, guid: 523178fd9e7918040b52753d41016d61, type: 2}

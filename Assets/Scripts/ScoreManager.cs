@@ -1,5 +1,4 @@
-using System;
-using System.Runtime.InteropServices.WindowsRuntime;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -15,11 +14,11 @@ public class ScoreManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        updateScoreEvent = new UnityEvent<int>();
     }
 
     private void Start()
     {
-        updateScoreEvent = new UnityEvent<int>();
         currentScore = 0;
     }
 
@@ -33,7 +32,7 @@ public class ScoreManager : MonoBehaviour
     public void AddScore(NPCSO nPCSO)
     {
 
-        //currentScore += CurrentTargetAudience.Instance.GetCurrentScore(nPCSO.typeOfNPC);
+        currentScore += CurrentTargetAudience.Instance.GetCurrentScore(nPCSO.typeOfNPC);
 
         updateScoreEvent.Invoke(currentScore);
     }

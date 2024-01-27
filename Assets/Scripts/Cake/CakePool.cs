@@ -32,6 +32,7 @@ public class CakePool : MonoBehaviour
     }
     public void DestroyCakeInmediatly(GameObject cake)
     {
+        StopCoroutine(RecicleCake(cake));
         ObjectPooling.RecicleObject(cakeGO, cake);
     }
 
