@@ -10,7 +10,7 @@ namespace PixelArsenal
     {
         public GameObject Button;
         Text MyButtonText;
-        string projectileParticleName;      // The variable to update the text component of the button
+        string projectileParticleName;      // The variable to update the textMesh component of the button
 
         PixelArsenalFireProjectile effectScript;        // A variable used to access the list of projectiles
         PixelArsenalProjectileScript projectileScript;

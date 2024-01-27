@@ -1,19 +1,22 @@
 ﻿using System;
 using UnityEngine;
 
-public class GunCooldown : MonoBehaviour
+public class JokesCooldown : MonoBehaviour
 {
-    public bool canShoot { get; private set; }
+    public bool canTellAJoke { get; private set; }
 
     private float timer;
 
-    [SerializeField, Range(0.01f, 3f)] private float cooldown = 1.5f;
+    [SerializeField, Range(2, 10f)] private float cooldown = 2f;
 
     private Action timerAction;
 
+    public static JokesCooldown instance;
+
     private void Awake()
     {
-        canShoot = true;
+        instance = this;
+        canTellAJoke = true;
     }
 
     private void PauseTimer(GameState gameState)
@@ -32,23 +35,26 @@ public class GunCooldown : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if (timer > cooldown && !canShoot)
+        if (timer > cooldown && !canTellAJoke)
         {
-            canShoot = true;
+            canTellAJoke = true;
             EndTimer();
         }
     }
 
     public void RestartTimer()
     {
-        canShoot = false;
-        timer = 0;
+        PauseTimer();
         timerAction = Timer;
     }
 
+    public void PauseTimer()
+    {
+        canTellAJoke = false;
+        timer = 0;
+    }
     public void EndTimer()
     {
         timerAction = null;
     }
 }
-
