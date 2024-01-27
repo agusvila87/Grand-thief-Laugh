@@ -134,8 +134,9 @@ GameObject:
   - component: {fileID: 19551000}
   - component: {fileID: 19551002}
   - component: {fileID: 19551001}
+  - component: {fileID: 19551003}
   m_Layer: 5
-  m_Name: Image
+  m_Name: GloboDeTexto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -150,15 +151,15 @@ RectTransform:
   m_GameObject: {fileID: 19550999}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5.37, y: 2.6199996, z: 4.0599995}
+  m_LocalScale: {x: 5.3700004, y: 2.6199996, z: 4.0599995}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 578012061}
+  m_Father: {fileID: 905553392}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 62, y: 233.52}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -202.01, y: 104.71}
+  m_SizeDelta: {x: 1.67, y: 1.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &19551001
 MonoBehaviour:
@@ -198,6 +199,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 19550999}
   m_CullTransparentMesh: 1
+--- !u!95 &19551003
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19550999}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b42236abf1372464190cad34e8581cb3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &33433955
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,7 +1431,7 @@ RectTransform:
   - {fileID: 1626438222}
   - {fileID: 2009223125}
   - {fileID: 748964694}
-  - {fileID: 19551000}
+  - {fileID: 905553392}
   - {fileID: 1114101845}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1836,6 +1858,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894963205}
   m_CullTransparentMesh: 1
+--- !u!1 &905553391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 905553392}
+  m_Layer: 5
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &905553392
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905553391}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 19551000}
+  m_Father: {fileID: 578012061}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -51, y: 144.93271}
+  m_SizeDelta: {x: 173.84518, y: 84.818306}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &973639574
 GameObject:
   m_ObjectHideFlags: 0
@@ -2056,7 +2114,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -35, y: 233.52}
+  m_AnchoredPosition: {x: 42, y: 377}
   m_SizeDelta: {x: 411.47, y: 230.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1114101846
@@ -2071,6 +2129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a276ec35b5eb69438960ff95405d2df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  globoDeTexto: {fileID: 19550999}
 --- !u!114 &1114101847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2122,8 +2181,8 @@ MonoBehaviour:
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMin: 20
+  m_fontSizeMax: 40
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
@@ -2154,7 +2213,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 83.89559, y: 0, z: -140.5542, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

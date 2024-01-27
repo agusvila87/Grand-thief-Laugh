@@ -30,6 +30,6 @@ public class CakePool : MonoBehaviour
     public void DestroyCakeInmediatly(GameObject cake)
     {
         ObjectPooling.RecicleObject(cakeGO, cake);
-        Debug.Log("SE DESACTIVA INMEDIATAMENTE");
+        //Debug.Log("SE DESACTIVA INMEDIATAMENTE");
     }
 }

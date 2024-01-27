@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
 
     public void Shoot()
     {
-        Debug.Log(gunCoold.canShoot);
+        //Debug.Log(gunCoold.canShoot);
 
         animator.SetTrigger("ShootT");
         mainCamera.ShakeCamera();

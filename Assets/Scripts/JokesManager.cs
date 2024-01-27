@@ -14,11 +14,11 @@ public class JokesManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        print(collision.gameObject.tag);
+       // print(collision.gameObject.tag);
 
         if (collision.gameObject.CompareTag("Player") && jokesCooldown.canTellAJoke)
         {
-            Debug.Log("CONTAME UN CHISTE");
+           // Debug.Log("CONTAME UN CHISTE");
             jokesCooldown.PauseTimer();
             TellJoke();
         }
@@ -34,7 +34,6 @@ public class JokesManager : MonoBehaviour
             joke = jokesList[Random.Range(0, jokesList.Length)];
         }
 
-        //PlayAudio(joke.clip);
         UIJokesManager.instance.WriteJoke(joke.text, joke.wait);
         PlayAudio(joke.clip);
     }
