@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
 
     public void ChangeCurrentAudience()
     {
-        currentAudience = currentAudiences[Random.Range(0, currentAudiences.Length - 1)];
+        currentAudience = currentAudiences[Random.Range(0, currentAudiences.Length)];
         currentEvent.Invoke(currentAudience);
     }
 
