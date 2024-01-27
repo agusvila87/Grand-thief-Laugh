@@ -36,4 +36,6 @@ public class CameraYChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+
 }
