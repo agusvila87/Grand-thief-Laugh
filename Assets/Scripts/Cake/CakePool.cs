@@ -19,7 +19,7 @@ public class CakePool : MonoBehaviour
 
     private void Start()
     {
-        ObjectPooling.PreLoad(cakeGO, 1);
+        ObjectPooling.PreLoad(cakeGO, 6);
     }
 
     public GameObject GetCake() 

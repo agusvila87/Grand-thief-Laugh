@@ -13,13 +13,15 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private int LifePoints;
 
-    public ParticleSystem vfxShoot;
-    
+    public AudioSource audioShoot;
+
     MainCamera mainCamera;
+    GunCooldown gunCoold;
     private void Awake()
     {
         instance = this;
         mainCamera=FindObjectOfType<MainCamera>();
+        gunCoold= GetComponentInChildren<GunCooldown>();
     }
 
     public void Move(Vector2 inputMovement)
@@ -47,11 +49,14 @@ public class PlayerController : MonoBehaviour
 
     public void Shoot()
     {
-        animator.SetBool("Shoot", true);
-        mainCamera.ShakeCamera();
-        vfxShoot.Play();
+        Debug.Log(gunCoold.canShoot);
+        if (gunCoold.canShoot)
+        {
+            animator.SetBool("Shoot", true);
+            mainCamera.ShakeCamera();
+            audioShoot.Play();
+        }
     }
-
     void ShootOff()
     {
         animator.SetBool("Shoot", false);
