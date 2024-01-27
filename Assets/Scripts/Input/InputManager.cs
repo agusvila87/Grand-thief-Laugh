@@ -15,8 +15,8 @@ public class InputManager : MonoBehaviour
 
     private void Fire(InputAction.CallbackContext obj)
     {
-        GunController.instance.Fire();
         PlayerController.instance.Shoot();
+        GunController.instance.Fire();
     }
 
     private void MovePlayer(Vector2 input)
