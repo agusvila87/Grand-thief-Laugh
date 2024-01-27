@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private int LifePoints;
 
+    public ParticleSystem vfxShoot;
+    
     MainCamera mainCamera;
     private void Awake()
     {
@@ -47,6 +49,7 @@ public class PlayerController : MonoBehaviour
     {
         animator.SetBool("Shoot", true);
         mainCamera.ShakeCamera();
+        vfxShoot.Play();
     }
 
     void ShootOff()
