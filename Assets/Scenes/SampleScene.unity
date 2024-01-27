@@ -1838,6 +1838,11 @@ MonoBehaviour:
   npcSos:
   - {fileID: 11400000, guid: e23f69040e82748428814b266d3adb9a, type: 2}
   - {fileID: 11400000, guid: b6144b8409ed2104e909e21248ef3a23, type: 2}
+--- !u!95 &1101045057 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2586990677483779884, guid: 3ee8d869c0bb3ba49ad6728b7386c86e, type: 3}
+  m_PrefabInstance: {fileID: 395229175862550200}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1114101844
 GameObject:
   m_ObjectHideFlags: 0
@@ -2677,6 +2682,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 896593548456561370, guid: 3ee8d869c0bb3ba49ad6728b7386c86e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896593548456561370, guid: 3ee8d869c0bb3ba49ad6728b7386c86e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921556805407276756, guid: 3ee8d869c0bb3ba49ad6728b7386c86e, type: 3}
+      propertyPath: cooldown
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998230182629426073, guid: 3ee8d869c0bb3ba49ad6728b7386c86e, type: 3}
+      propertyPath: animatorPiernas
+      value: 
+      objectReference: {fileID: 1101045057}
     - target: {fileID: 7080223170051641122, guid: 3ee8d869c0bb3ba49ad6728b7386c86e, type: 3}
       propertyPath: m_Name
       value: Plim Plam PLUMMM

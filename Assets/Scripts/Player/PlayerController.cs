@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb2d => GetComponent<Rigidbody2D>();
     Animator animator => GetComponent<Animator>();
 
+    public Animator animatorPiernas;
+
     [SerializeField] private int LifePoints;
 
     public AudioSource audioShoot;
@@ -20,7 +22,9 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         instance = this;
+
         mainCamera=FindObjectOfType<MainCamera>();
+        //animatorPiernas = GetComponentInChildren<Animator>();
         gunCoold= GetComponentInChildren<GunCooldown>();
     }
 
@@ -45,16 +49,20 @@ public class PlayerController : MonoBehaviour
 
 
         animator.SetBool("IsWalking", inputMovement.magnitude != 0f);
+        animatorPiernas.SetBool("IsMoving", animator.GetBool("IsWalking"));
     }
 
     public void Shoot()
     {
         Debug.Log(gunCoold.canShoot);
+
+        animator.SetTrigger("ShootT");
+        mainCamera.ShakeCamera();
+        audioShoot.Play();
+
         if (gunCoold.canShoot)
         {
-            animator.SetBool("Shoot", true);
-            mainCamera.ShakeCamera();
-            audioShoot.Play();
+            
         }
     }
     void ShootOff()
