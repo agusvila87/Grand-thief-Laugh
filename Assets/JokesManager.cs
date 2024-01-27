@@ -36,6 +36,7 @@ public class JokesManager : MonoBehaviour
 
         //PlayAudio(joke.clip);
         UIJokesManager.instance.WriteJoke(joke.text, joke.wait);
+        PlayAudio(joke.clip);
     }
 
     private void PlayAudio(AudioClip clip)
@@ -48,7 +49,7 @@ public class JokesManager : MonoBehaviour
 [System.Serializable]
 public class Joke
 {
-    public float seconds = 0.1f;
+    public float seconds = 0.001f;
     public WaitForSeconds wait => new WaitForSeconds(seconds);
     public AudioClip clip;
     [TextArea] public string text;

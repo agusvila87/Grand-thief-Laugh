@@ -677,7 +677,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.161
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -775,23 +775,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jokesList:
   - seconds: 0.1
-    clip: {fileID: 0}
-    text: "\xBFQue tiene dos patas y sangra? Un perro a la mitad."
+    clip: {fileID: 8300000, guid: 45026fd00552bc04e9a5176600ef84a3, type: 3}
+    text: Primero apunta, Segundo Francia.
   - seconds: 0.1
-    clip: {fileID: 0}
-    text: "\xBFQue tiene dos patas y sangra? Tu hermana muerta."
-  - seconds: 0.1
-    clip: {fileID: 0}
-    text: "\xBFPor qu\xE9 Cristobal Colon es la inspiracion de los curas?... Porque
-      se vino en la ni\xF1a."
-  - seconds: 0.1
-    clip: {fileID: 0}
-    text: "\xBFPor qu\xE9 una ni\xF1a en silla de ruedas no puede jugar al futbol?
-      Porque tiene que cocinar."
-  - seconds: 0.1
-    clip: {fileID: 0}
-    text: "\xBFQu\xE9 es un exorcismo al rev\xE9s? Cuando el demonio le pide al cura
-      que salga del ni\xF1o."
+    clip: {fileID: 8300000, guid: d6b5b5a4cd5f4d54e91e07cc12992f74, type: 3}
+    text: Con lo que cuestan 10 panchukes, no llegas a comprarte un juego en Steam
+      muchacho.
 --- !u!58 &394571828
 CircleCollider2D:
   m_ObjectHideFlags: 0
