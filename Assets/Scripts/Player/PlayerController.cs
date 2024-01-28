@@ -52,15 +52,13 @@ public class PlayerController : MonoBehaviour
     public void Shoot()
     {
         //Debug.Log(gunCoold.canShoot);
-
-        animator.SetTrigger("ShootT");
-        MainCamera.instance.ShakeCamera();
-        audioShoot.Play();
-
-        if (gunCoold.canShoot)
+        if(Time.timeScale != 0f)
         {
-            
+            animator.SetTrigger("ShootT");
+            MainCamera.instance.ShakeCamera();
+            audioShoot.Play();
         }
+
     }
     void ShootOff()
     {

@@ -11,6 +11,10 @@ public class CameraYChangeScene : MonoBehaviour
     [SerializeField] private float timerPlay=2f;
     [SerializeField] private GameObject instruccionesGO;
     [SerializeField] private GameObject BotonPlay;
+    private void Start()
+    {
+        Time.timeScale = 1f;
+    }
     public void GoCreditos()
     {
         animator.SetBool("Creditos", true);
