@@ -4,7 +4,7 @@ public class PoliceLogic : MovementLogic
 {
     public override void Move(Transform transform, Collider2D targetCollider)
     {
-        Debug.Log("POLICIAAAAA");
+        //Debug.Log("POLICIAAAAA");
         Vector3 targetPos = targetCollider.bounds.center;
         Vector3 v = (transform.position - targetPos).normalized;
 

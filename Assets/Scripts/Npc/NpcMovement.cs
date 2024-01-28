@@ -22,12 +22,12 @@ public class NpcMovement : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log($"ENTRA ALGO: {collision.gameObject.tag}");
+        //Debug.Log($"ENTRA ALGO: {collision.gameObject.tag}");
         logic.OnTrigger(collision.gameObject.tag, gameObject);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log($"ENTRA ALGO: {collision.gameObject.tag}");
+        //Debug.Log($"ENTRA ALGO: {collision.gameObject.tag}");
         logic.OnTrigger(collision.gameObject.tag, gameObject);
 
     }
