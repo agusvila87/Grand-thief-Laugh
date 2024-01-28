@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
 
     private WaitForSeconds wait = new WaitForSeconds(2);
 
-    int PlimPlamLife = 3;
+    public int PlimPlamLife = 3;
 
     private void Awake()
     {
@@ -25,11 +25,15 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        GameStateManager.Initialize();
+
         if (currentEvent == null)
         {
             currentEvent = new UnityEvent<CurrentAudience>();
+
         }
         ChangeCurrentAudience();
+
     }
 
     public void ChangeCurrentAudience()
@@ -53,9 +57,38 @@ public class GameManager : MonoBehaviour
     public void ReduceLife()
     {
         PlimPlamLife--;
-        if(PlimPlamLife <= 0)
+        if (PlimPlamLife <= 0)
         {
-            //Perder.
+            UILoseCanvasManager.instance.YouLose();
         }
+    }
+
+    public void RestartGame()
+    {
+        PlimPlamLife = 3;
+        ScoreManager.Instance.RestartScore();
+    }
+}
+
+public static class GameStateManager
+{
+    public static GameState currentState;
+    public static UnityEvent<GameState> currentStateEvent;
+
+    public static void Initialize()
+    {
+        currentState = GameState.Playing;
+        if (currentStateEvent == null)
+        {
+            currentStateEvent = new UnityEvent<GameState>();
+        }
+        currentStateEvent.Invoke(currentState);
+
+    }
+    public static void SetCurrentStatus(GameState state)
+    {
+        currentState = state;
+        currentStateEvent.Invoke(currentState);
+
     }
 }

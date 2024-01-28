@@ -33,5 +33,6 @@ public class GunController : MonoBehaviour
 
 public enum GameState
 {
-    Menu, Playing, Lose
+    Menu, Playing, Lose,
+    Pause
 }

@@ -15,6 +15,7 @@ public class CakePool : MonoBehaviour
     {
         wait = new WaitForSeconds(seconds);
         instance = this;
+        ObjectPooling.ClearPoolSystem();
     }
 
     private void Start()

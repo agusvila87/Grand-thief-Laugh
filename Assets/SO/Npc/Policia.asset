@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36ae0439bf1396845b991b76a4a626cd, type: 3}
   m_Name: Policia
   m_EditorClassIdentifier: 
-  sprite: {fileID: 568201590, guid: 1f0b021e22a2e3b43a58dc82036753ae, type: 3}
+  sprite: {fileID: 858969591, guid: 1f0b021e22a2e3b43a58dc82036753ae, type: 3}
   typeOfNPC: 0
-  animatorController: {fileID: 9100000, guid: e624d03b9a6055c4ea73bcb315e51006, type: 2}
+  animatorController: {fileID: 9100000, guid: 5324eb9920de8304e96992916d345f0c, type: 2}
   isEnemy: 1
   weight: 15
-  speedMultiplier: 1.2
+  speedMultiplier: 1.15

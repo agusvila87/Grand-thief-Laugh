@@ -70,5 +70,10 @@ namespace ObjectPoolingPattern
 
         }
 
+        public static void ClearPoolSystem()
+        {
+            pool = new Dictionary<int, Queue<GameObject>>();
+            parentsGOs = new Dictionary<int, GameObject>();
+        }
     }
 }

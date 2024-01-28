@@ -44,14 +44,5 @@ public class PuaseInput : MonoBehaviour
             pauseCanvas.SetActive(false);
         }
     }
-
-    public void GoMenu()
-    {
-        SceneManager.LoadScene(0);
-    }
-
-    public void QuitGame()
-    {
-        Application.Quit();
-    }
 }
+
