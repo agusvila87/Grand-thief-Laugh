@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
@@ -17,6 +18,8 @@ public class GameManager : MonoBehaviour
     private WaitForSeconds wait = new WaitForSeconds(2);
 
     public int PlimPlamLife = 3;
+
+    [SerializeField] private GameObject[] vidas;
     AudioSource audioS=>GetComponent<AudioSource>();
 
     private void Awake()
@@ -58,6 +61,7 @@ public class GameManager : MonoBehaviour
     public void ReduceLife()
     {
         PlimPlamLife--;
+        RestarUnaVida();
         audioS.Play();
         if (PlimPlamLife <= 0)
         {
@@ -65,6 +69,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void RestarUnaVida()
+    {
+        for (int i = 0; i < vidas.Length; i++)
+        {
+            vidas[i].SetActive(i<PlimPlamLife );
+        }
+    }
     public void RestartGame()
     {
         PlimPlamLife = 3;
