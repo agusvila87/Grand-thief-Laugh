@@ -3,16 +3,32 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class NpcMovement : MonoBehaviour
 {
-    public float velocidad; // Ajusta la velocidad según tus necesidades
-
-    private Rigidbody2D rb2d => GetComponent<Rigidbody2D>();
+    private MovementLogic logic;
+    Collider2D target;
+    public void SetLogic(MovementLogic logic, float speed)
+    {
+        this.logic = logic;
+        this.logic.speed = speed;
+        logic.rb2d = GetComponent<Rigidbody2D>();
+    }
+    private void Start()
+    {
+        target = PlayerController.instance.gameObject.GetComponent<Collider2D>();
+    }
 
     private void FixedUpdate()
     {
-        // Calcula el desplazamiento basado en la dirección y la velocidad
-        Vector3 desplazamiento = -transform.right * velocidad * Time.fixedDeltaTime;
+        logic.Move(transform, target);
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log($"ENTRA ALGO: {collision.gameObject.tag}");
+        logic.OnTrigger(collision.gameObject.tag, gameObject);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log($"ENTRA ALGO: {collision.gameObject.tag}");
+        logic.OnTrigger(collision.gameObject.tag, gameObject);
 
-        // Aplica el desplazamiento al Rigidbody
-        rb2d.velocity = new Vector3(desplazamiento.x, rb2d.velocity.y, desplazamiento.z);
     }
 }

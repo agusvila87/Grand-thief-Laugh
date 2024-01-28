@@ -2071,6 +2071,7 @@ MonoBehaviour:
   spawnAmount: 5
   npcGO: {fileID: 3117787310396253052, guid: 1273d93f407cb7344ad1b8b944d1491a, type: 3}
   npcSos:
+  - {fileID: 11400000, guid: 2dc3436d73262774eb55eda9a22d7948, type: 2}
   - {fileID: 11400000, guid: e23f69040e82748428814b266d3adb9a, type: 2}
   - {fileID: 11400000, guid: b6144b8409ed2104e909e21248ef3a23, type: 2}
 --- !u!95 &1101045057 stripped

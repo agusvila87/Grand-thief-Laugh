@@ -15,3 +15,5 @@ MonoBehaviour:
   sprite: {fileID: -469030535, guid: 4a8efd01c149f3d48892e2f5cbf75e09, type: 3}
   typeOfNPC: 0
   animatorController: {fileID: 9100000, guid: 523178fd9e7918040b52753d41016d61, type: 2}
+  isEnemy: 0
+  weight: 42

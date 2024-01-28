@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
 
     private WaitForSeconds wait = new WaitForSeconds(2);
 
+    int PlimPlamLife = 3;
+
     private void Awake()
     {
         Instance = this;
@@ -46,5 +48,14 @@ public class GameManager : MonoBehaviour
     {
         yield return wait;
         ChangeCurrentAudience();
+    }
+
+    public void ReduceLife()
+    {
+        PlimPlamLife--;
+        if(PlimPlamLife <= 0)
+        {
+            //Perder.
+        }
     }
 }

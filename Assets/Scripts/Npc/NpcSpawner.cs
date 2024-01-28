@@ -1,7 +1,6 @@
 using UnityEngine;
 using ObjectPoolingPattern;
 using Random = UnityEngine.Random;
-using System;
 using System.Collections;
 
 public class NpcSpawner : MonoBehaviour
@@ -21,6 +20,7 @@ public class NpcSpawner : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+       
     }
     void Start()
     {
@@ -40,6 +40,27 @@ public class NpcSpawner : MonoBehaviour
 
     private NPCSO GetNPCSO()
     {
+        int totalWeight = 0;
+        foreach (var weightedItem in npcSos)
+        {
+            totalWeight += weightedItem.weight;
+        }
+
+        // Elige un valor aleatorio dentro del rango total de pesos
+        int randomValue = Random.Range(0, totalWeight);
+
+        // Encuentra el elemento que corresponde al valor aleatorio
+        foreach (var weightedItem in npcSos)
+        {
+            
+            if (randomValue < weightedItem.weight)
+            {
+                weightedItem.Initialize();
+                return weightedItem;
+            }
+            randomValue -= weightedItem.weight;
+        }
+
         return npcSos[Random.Range(0, npcSos.Length)];
     }
 

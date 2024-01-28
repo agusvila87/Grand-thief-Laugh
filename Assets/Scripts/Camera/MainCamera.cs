@@ -5,20 +5,20 @@ using UnityEngine;
 public class MainCamera : MonoBehaviour
 {
     Animator animator;
+
+    public static MainCamera instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
     void Start()
     {
        animator = GetComponent<Animator>(); 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void ShakeCamera()
     {
-        //animator.SetBool("Shake", true);
         animator.SetTrigger("Shake");
     }
 }

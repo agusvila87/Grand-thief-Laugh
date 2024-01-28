@@ -13,17 +13,14 @@ public class PlayerController : MonoBehaviour
 
     public Animator animatorPiernas;
 
-    [SerializeField] private int LifePoints;
 
     public AudioSource audioShoot;
 
-    MainCamera mainCamera;
     GunCooldown gunCoold;
     private void Awake()
     {
         instance = this;
 
-        mainCamera=FindObjectOfType<MainCamera>();
         //animatorPiernas = GetComponentInChildren<Animator>();
         gunCoold= GetComponentInChildren<GunCooldown>();
     }
@@ -57,7 +54,7 @@ public class PlayerController : MonoBehaviour
         //Debug.Log(gunCoold.canShoot);
 
         animator.SetTrigger("ShootT");
-        mainCamera.ShakeCamera();
+        MainCamera.instance.ShakeCamera();
         audioShoot.Play();
 
         if (gunCoold.canShoot)
