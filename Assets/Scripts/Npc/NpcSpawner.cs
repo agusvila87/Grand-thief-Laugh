@@ -70,6 +70,7 @@ public class NpcSpawner : MonoBehaviour
 
         Vector2 vector = new Vector2(spawn, Random.Range(minY, maxY));
         float velocity = Random.Range(minSpeed, maxSpeed);
+        maxSpeed += 3;
         Quaternion rotation = spawn == spawnRight ? Quaternion.Euler(0, 0, 0) : Quaternion.Euler(0, 180, 0);
 
         return new NPCValues(vector, velocity, rotation);
