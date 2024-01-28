@@ -971,44 +971,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jokesList:
-  - seconds: 0.1
+  - seconds: 0.025
     clip: {fileID: 8300000, guid: 45026fd00552bc04e9a5176600ef84a3, type: 3}
     text: Primero apunta, Segundo Francia.
-  - seconds: 0.1
+  - seconds: 0.025
     clip: {fileID: 8300000, guid: d6b5b5a4cd5f4d54e91e07cc12992f74, type: 3}
     text: Con lo que cuestan 10 panchukes, no llegas a comprarte un juego en Steam
       muchacho.
-  - seconds: 0.1
+  - seconds: 0.025
     clip: {fileID: 8300000, guid: 32ee76a021cfb024c81ce25f617f687e, type: 3}
     text: Despues de casarme la peor desicion fue invertir en NFTs
-  - seconds: 0.1
+  - seconds: 0.025
     clip: {fileID: 8300000, guid: d80a895a04da1834886e26415e110151, type: 3}
     text: "Mas duro que la espalda del pap\xE1 de Baki"
-  - seconds: 0.1
+  - seconds: 0.025
     clip: {fileID: 8300000, guid: ada7b2768b8f67840bb2b825e75dd990, type: 3}
     text: Si Rockstar se entera del titulo del juego, nos demandan
-  - seconds: 0.1
+  - seconds: 0.025
     clip: {fileID: 8300000, guid: e49b9614908308241ba28bdf4e0afbf1, type: 3}
     text: Pensar que en la beta golpeabas bebes
-  - seconds: 0.1
+  - seconds: 0.025
     clip: {fileID: 8300000, guid: b5a82346cfd872245b116bf9ce734742, type: 3}
     text: Antes peleaba con batman, pero el crimen no paga tan bien como los panchukes
-  - seconds: 0.1
+  - seconds: 0.025
     clip: {fileID: 8300000, guid: 635f64eb70596074c894ec484f161c0a, type: 3}
     text: Antes era un personaje jugable, pero el presupuesto no alcanzo
-  - seconds: 0.1
+  - seconds: 0.025
     clip: {fileID: 8300000, guid: ab70e9e489ef8c347b2feb1d8ea49640, type: 3}
     text: Seguro que este juego gana mas logros que el spiderman 2
-  - seconds: 0.1
+  - seconds: 0.025
     clip: {fileID: 8300000, guid: 35459612c0b535c44943af6dc7f278aa, type: 3}
     text: Mi madre dijo que estudie. Mirame ahora, el exito mismo muchacho
-  - seconds: 0.1
+  - seconds: 0.025
     clip: {fileID: 8300000, guid: 7022672aa6aaaef44885bcf2737dec19, type: 3}
     text: Antes tenia un ayudante Enano, pero un tipo en silla de ruedas me lo robo
-  - seconds: 0.1
+  - seconds: 0.025
     clip: {fileID: 8300000, guid: 2ec0226920ca22b4a86ea41dc059c1c5, type: 3}
     text: Mas duro que las politicas nuevas de Unity
-  - seconds: 0.1
+  - seconds: 0.025
     clip: {fileID: 8300000, guid: de52af01f3b840f4c8ac22c28a1e0550, type: 3}
     text: El Viejo Jey era gracioso, pero hay que aceptar que tenia problemas
 --- !u!58 &394571828
@@ -1073,7 +1073,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc260c45c0b96e43b47bb03dc34d211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldown: 1.5
+  cooldown: 2
 --- !u!1 &415721487
 GameObject:
   m_ObjectHideFlags: 0
@@ -1669,6 +1669,7 @@ GameObject:
   - component: {fileID: 887293215}
   - component: {fileID: 887293214}
   - component: {fileID: 887293216}
+  - component: {fileID: 887293217}
   m_Layer: 5
   m_Name: Followers
   m_TagString: Untagged
@@ -1715,7 +1716,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Score-View
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0b1aa71314d7e7442be6668fa114f291, type: 2}
   m_sharedMaterial: {fileID: 537436595459001810, guid: 0b1aa71314d7e7442be6668fa114f291, type: 2}
@@ -1804,6 +1805,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77a4d9cfaf34ca745ae4bc35cc093c9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &887293217
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887293212}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e0a092e01415b0547b2e5dae576adea7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &894963205
 GameObject:
   m_ObjectHideFlags: 0

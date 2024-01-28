@@ -48,7 +48,7 @@ public class JokesManager : MonoBehaviour
 [System.Serializable]
 public class Joke
 {
-    public float seconds = 0.001f;
+    public float seconds = 0.025f;
     public WaitForSeconds wait => new WaitForSeconds(seconds);
     public AudioClip clip;
     [TextArea] public string text;

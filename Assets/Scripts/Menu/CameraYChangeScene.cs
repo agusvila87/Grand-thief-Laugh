@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,7 +8,9 @@ public class CameraYChangeScene : MonoBehaviour
 
     [SerializeField] private GameObject menuGO;
     [SerializeField] private GameObject creditosGO;
-
+    [SerializeField] private float timerPlay=2f;
+    [SerializeField] private GameObject instruccionesGO;
+    [SerializeField] private GameObject BotonPlay;
     public void GoCreditos()
     {
         animator.SetBool("Creditos", true);
@@ -37,5 +40,22 @@ public class CameraYChangeScene : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void GoPlay()
+    {
+        menuGO.SetActive(false);
+        animator.SetBool("GoPlay", true);
+    }
 
+    private void Instrucciones()
+    {
+        instruccionesGO.SetActive(true);
+        StartCoroutine(Wait5SeconsPlay());
+    }
+
+    IEnumerator Wait5SeconsPlay()
+    {
+        yield return new WaitForSeconds(timerPlay);
+        BotonPlay.SetActive(true);
+
+    }
 }

@@ -16,5 +16,5 @@ MonoBehaviour:
   typeOfNPC: 0
   animatorController: {fileID: 9100000, guid: e624d03b9a6055c4ea73bcb315e51006, type: 2}
   isEnemy: 1
-  weight: 16
-  speedMultiplier: 1.5
+  weight: 15
+  speedMultiplier: 1.2
