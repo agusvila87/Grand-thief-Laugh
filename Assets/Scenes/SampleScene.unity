@@ -941,6 +941,18 @@ MonoBehaviour:
   - seconds: 0.025
     clip: {fileID: 8300000, guid: de52af01f3b840f4c8ac22c28a1e0550, type: 3}
     text: El Viejo Jey era gracioso, pero hay que aceptar que tenia problemas
+  - seconds: 0.025
+    clip: {fileID: 8300000, guid: e699ba61cfe298a43a626a2b2cb0443e, type: 3}
+    text: Que ganas de volver a la fiesta de la isla.
+  - seconds: 0.025
+    clip: {fileID: 8300000, guid: 003a3a4fc23b8b8438980ca0fad2150f, type: 3}
+    text: Otro consejo muchacho, todas mienten!
+  - seconds: 0.025
+    clip: {fileID: 8300000, guid: 7543aced1e366384cb7a2d1270ab095d, type: 3}
+    text: No son todas.. Es una mas que otra
+  - seconds: 0.025
+    clip: {fileID: 8300000, guid: 7869998c5acc9e24cadcc0dc485b1087, type: 3}
+    text: Como tan muchachos?
 --- !u!58 &394571828
 CircleCollider2D:
   m_ObjectHideFlags: 0
