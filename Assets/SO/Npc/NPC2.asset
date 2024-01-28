@@ -17,3 +17,4 @@ MonoBehaviour:
   animatorController: {fileID: 9100000, guid: 523178fd9e7918040b52753d41016d61, type: 2}
   isEnemy: 0
   weight: 42
+  speedMultiplier: 1
