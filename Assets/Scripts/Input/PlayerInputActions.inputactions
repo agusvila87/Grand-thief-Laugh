@@ -169,7 +169,18 @@
                 {
                     "name": "",
                     "id": "58504a65-3188-4b49-bdd8-bad04af0040a",
-                    "path": "<Keyboard>/t",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f42267c0-b2d7-4ded-a821-46e65fb8cc7c",
+                    "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
