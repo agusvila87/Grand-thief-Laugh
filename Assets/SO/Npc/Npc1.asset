@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36ae0439bf1396845b991b76a4a626cd, type: 3}
   m_Name: Npc1
   m_EditorClassIdentifier: 
-  sprite: {fileID: 1297073203, guid: 4a8efd01c149f3d48892e2f5cbf75e09, type: 3}
+  sprite: {fileID: 710843310, guid: 1f0b021e22a2e3b43a58dc82036753ae, type: 3}
   typeOfNPC: 0
   animatorController: {fileID: 9100000, guid: acdee4c8813ec6e4aa50b9ffbe019cb1, type: 2}
   isEnemy: 0
   weight: 42
+  speedMultiplier: 1
