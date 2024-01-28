@@ -21,4 +21,8 @@ public class MainCamera : MonoBehaviour
     {
         animator.SetTrigger("Shake");
     }
+    public void ShakeCameraHard()
+    {
+        animator.SetTrigger("ShakeHard");
+    }
 }

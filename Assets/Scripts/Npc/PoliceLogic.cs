@@ -17,7 +17,7 @@ public class PoliceLogic : MovementLogic
         {
             NpcSpawner.Instance.DeleteNpc(thisGameObject);
             GameManager.Instance.ReduceLife();
-            MainCamera.instance.ShakeCamera();
+            MainCamera.instance.ShakeCameraHard();
             //Hacer particulas
         }
     }

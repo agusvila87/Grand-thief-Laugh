@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     private WaitForSeconds wait = new WaitForSeconds(2);
 
     public int PlimPlamLife = 3;
+    AudioSource audioS=>GetComponent<AudioSource>();
 
     private void Awake()
     {
@@ -57,6 +58,7 @@ public class GameManager : MonoBehaviour
     public void ReduceLife()
     {
         PlimPlamLife--;
+        audioS.Play();
         if (PlimPlamLife <= 0)
         {
             UILoseCanvasManager.instance.YouLose();
