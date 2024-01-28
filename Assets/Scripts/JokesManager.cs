@@ -29,11 +29,22 @@ public class JokesManager : MonoBehaviour
     {
         Joke joke = previousJoke;
 
-        while (joke == previousJoke)
+        // Asegurarse de que haya al menos dos chistes para evitar bucle infinito
+        if (jokesList.Length > 1)
         {
-            joke = jokesList[Random.Range(0, jokesList.Length)];
+            // Intentar obtener un chiste diferente al anterior
+            while (joke == previousJoke)
+            {
+                joke = jokesList[Random.Range(0, jokesList.Length)];
+            }
+        }
+        else
+        {
+            // Si solo hay un chiste, simplemente úsalo
+            joke = jokesList[0];
         }
 
+        previousJoke = joke; // Actualizar el chiste anterior
         UIJokesManager.instance.WriteJoke(joke.text, joke.wait);
         PlayAudio(joke.clip);
     }
