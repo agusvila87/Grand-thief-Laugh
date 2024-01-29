@@ -1381,7 +1381,7 @@ MonoBehaviour:
   spawnRight: 12
   minSpeed: 50
   maxSpeed: 100
-  spawnAmount: 5
+  spawnAmount: 6
   npcGO: {fileID: 3117787310396253052, guid: 1273d93f407cb7344ad1b8b944d1491a, type: 3}
   npcSos:
   - {fileID: 11400000, guid: 2dc3436d73262774eb55eda9a22d7948, type: 2}
